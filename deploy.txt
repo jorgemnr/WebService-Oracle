@@ -1,0 +1,17 @@
+--Sistema
+Servidor: SPOSVMCMEPRD02
+Criar pasta do projeto G:\Projetos\WebServiceOracle
+Copiar arquivos para ela
+Navegar para pasta do projeto
+
+--Python
+Criar virtual env: python -m venv .venv
+Ativar virtual env: .venv\Scripts\activate.bat
+Instalar dependências: pip install -r requirements.txt (precisa acesso internet)
+Teste unitário: python app.py
+Abrir no browser o ip da máquina e porta 8888 para self teste
+
+--IIS
+Criar site no IIS: WebServiceOracle
+Configurações estão no arquivo web.config 
+Testar no browser o ip da máquina e porta 8888 para self teste
